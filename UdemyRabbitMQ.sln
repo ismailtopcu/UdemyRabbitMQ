@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyRabbitMQ.publisher", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyRabbitMQ.subscriber", "UdemyRabbitMQ.subscriber\UdemyRabbitMQ.subscriber.csproj", "{DC9448F0-FFAF-4DEC-9F4E-5740CBC9CC54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyRabbitMQWeb.Watermark", "UdemyRabbitMQWeb.Watermark\UdemyRabbitMQWeb.Watermark.csproj", "{E15BE170-DE82-43DD-AC3D-F402DBFBAE50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyRabbitMQWeb.Watermark", "UdemyRabbitMQWeb.Watermark\UdemyRabbitMQWeb.Watermark.csproj", "{E15BE170-DE82-43DD-AC3D-F402DBFBAE50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyRabbitMQWeb.ExcelCreate", "UdemyRabbitMQWeb.ExcelCreate\UdemyRabbitMQWeb.ExcelCreate.csproj", "{F4E2643E-D2F3-4B38-8F86-0F313D025262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{B26374ED-E093-4D2E-A7B2-3C77C32030EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCreateWorkerService", "FileCreateWorkerService\FileCreateWorkerService.csproj", "{D4EF28B6-794C-48EE-814D-22F4CBFF0CBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{E15BE170-DE82-43DD-AC3D-F402DBFBAE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E15BE170-DE82-43DD-AC3D-F402DBFBAE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E15BE170-DE82-43DD-AC3D-F402DBFBAE50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E2643E-D2F3-4B38-8F86-0F313D025262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E2643E-D2F3-4B38-8F86-0F313D025262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E2643E-D2F3-4B38-8F86-0F313D025262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E2643E-D2F3-4B38-8F86-0F313D025262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B26374ED-E093-4D2E-A7B2-3C77C32030EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26374ED-E093-4D2E-A7B2-3C77C32030EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26374ED-E093-4D2E-A7B2-3C77C32030EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26374ED-E093-4D2E-A7B2-3C77C32030EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4EF28B6-794C-48EE-814D-22F4CBFF0CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EF28B6-794C-48EE-814D-22F4CBFF0CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EF28B6-794C-48EE-814D-22F4CBFF0CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EF28B6-794C-48EE-814D-22F4CBFF0CBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

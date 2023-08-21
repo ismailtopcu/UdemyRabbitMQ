@@ -29,9 +29,9 @@ namespace UdemyRabbitMQWeb.Watermark
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton(sp => new ConnectionFactory() { Uri = new Uri(Configuration.GetConnectionString("RabbitMQ")), DispatchConsumersAsync = true });
-
-            services.AddSingleton<RabbitMQClientService>();
-            services.AddSingleton<RabbitMQPublisher>();
+			services.AddSingleton<RabbitMQPublisher>();
+			services.AddSingleton<RabbitMQClientService>();
+            
 
             services.AddDbContext<AppDbContext>(options =>
             {
